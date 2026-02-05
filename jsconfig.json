@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2020", "DOM"],
+        "jsx":"preserve",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}
