@@ -118,7 +118,7 @@ const showingNavigationDropdown = ref(false);
                             Dashboard
                         </ResponsiveNavLink>
                         <NavLink :href="route('items.index')" :active="route().current('items.index')">
-                            商品管理
+                            メンバー
                         </NavLink>
                     </div>
 
